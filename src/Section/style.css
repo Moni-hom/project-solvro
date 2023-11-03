@@ -1,0 +1,37 @@
+.section {
+  background: white;
+}
+
+.section__form {
+  padding: 20px;
+}
+
+.section__addTask {
+  padding: 20px;
+  border-bottom: 1px solid rgb(184, 182, 182);
+}
+
+.section__header {
+  border-bottom: 1px solid rgb(184, 182, 182);
+  display: grid;
+  grid: gap 15px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .section__header {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section__title {
+  margin: 0;
+}
+
+.section__tasks {
+  padding: 20px;
+}
