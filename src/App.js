@@ -55,7 +55,7 @@ function App() {
 
   return (
     <Container>
-      <Header title="Lista zadań" />
+      <Header title="Lista zadań dla develeporów" />
       <Section
         title="Dodaj nowe zadanie"
         body={<Form addNewTask={addNewTask} />}
