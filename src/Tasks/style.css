@@ -7,7 +7,7 @@
 .tasks__item {
   display: grid;
   border-bottom: 1px solid rgb(193, 193, 193);
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 5fr 1fr auto;
   grid-gap: 10px;
   padding: 20px 0px;
   align-items: center;
@@ -54,4 +54,8 @@
 
 .task__button--remove:active {
   background-color: rgb(255, 178, 62);
+}
+
+.tasks__select {
+  padding: 4px;
 }

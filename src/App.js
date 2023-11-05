@@ -7,6 +7,7 @@ import Header from "./Header";
 import Container from "./Container";
 import Log from "./Log";
 import Clock from "./Clock";
+import { persons } from "./persons";
 
 const getInitialTasks = () => {
   const tasksFromLocalStorage = localStorage.getItem("tasks");
@@ -51,6 +52,16 @@ function App() {
     );
   };
 
+  const [choosePerson, setChoosePerson] = useState();
+
+  const addPerson = (person) => {
+    const people = persons.find(({ name }) => name === person);
+
+    setChoosePerson({
+      person,
+    });
+  };
+
   const addNewTask = (content) => {
     setTasks((tasks) => [
       ...tasks,
@@ -80,6 +91,8 @@ function App() {
             hideDone={hideDone}
             removeTask={removeTask}
             toggleTaskDone={toggleTaskDone}
+            choosePerson={choosePerson}
+            addPerson={addPerson}
           />
         }
         extraHeaderContent={
