@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-solvro/static/css/main.91848880.css",
+    "main.js": "/project-solvro/static/js/main.16f5e19a.js",
+    "static/js/787.8b67b105.chunk.js": "/project-solvro/static/js/787.8b67b105.chunk.js",
+    "index.html": "/project-solvro/index.html",
+    "main.91848880.css.map": "/project-solvro/static/css/main.91848880.css.map",
+    "main.16f5e19a.js.map": "/project-solvro/static/js/main.16f5e19a.js.map",
+    "787.8b67b105.chunk.js.map": "/project-solvro/static/js/787.8b67b105.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91848880.css",
+    "static/js/main.16f5e19a.js"
+  ]
+}
