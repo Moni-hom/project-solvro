@@ -5,12 +5,12 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
+import Log from "./Log";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
   const [tasks, setTasks] = useState([
     { id: 1, content: "Przejść na Reacta", done: false },
-    { id: 2, content: "zjeść obiad", done: true },
   ]);
 
   const toggleHideDone = () => {
@@ -55,6 +55,7 @@ function App() {
 
   return (
     <Container>
+      <Log />
       <Header title="Lista zadań dla develeporów" />
       <Section
         title="Dodaj nowe zadanie"
