@@ -6,6 +6,7 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 import Log from "./Log";
+import Clock from "./Clock";
 
 const getInitialTasks = () => {
   const tasksFromLocalStorage = localStorage.getItem("tasks");
@@ -64,6 +65,7 @@ function App() {
   return (
     <Container>
       <Log />
+      <Clock />
       <Header title="Lista zadań dla develeporów" />
       <Section
         title="Dodaj nowe zadanie"
