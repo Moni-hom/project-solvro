@@ -6,15 +6,19 @@
 }
 
 .buttonLog {
-  display: grid;
-  column-gap: 50px;
-  row-gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .buttonLog__button {
-  grid-template-columns: auto auto;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px;
-  padding: 20px;
+  background-color: rgb(204, 231, 250);
+  margin: 15px;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  -webkit-box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
+  -moz-box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
+  box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
 }
