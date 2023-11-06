@@ -77,7 +77,7 @@ function App() {
     <Container>
       <Log />
       <Clock />
-      <Header title="Lista zadań dla develeporów" />
+      <Header title="Lista zadań dla develeperów" />
       <Section
         title="Dodaj nowe zadanie"
         body={<Form addNewTask={addNewTask} />}
