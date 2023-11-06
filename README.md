@@ -1,6 +1,6 @@
 ## Pomocna lista zadań
 
-Możesz dodawać i usuwać swoje zadania. Te które są zrobione możesz zaznaczyć jako gotowe oraz je ukryć, żeby widzieć tylko te niezronione. Możesz również przydzielić zadanie danej osobie.
+Możesz dodawać i usuwać swoje zadania. Te zrobione możesz zaznaczyć jako gotowe oraz ukryć je, żeby widzieć tylko te niezrobione. Możesz również przydzielić zadanie danej osobie.
 
 # Demo
 
