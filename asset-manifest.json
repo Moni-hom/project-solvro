@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/project-solvro/static/css/main.d894191c.css",
-    "main.js": "/project-solvro/static/js/main.16f5e19a.js",
+    "main.js": "/project-solvro/static/js/main.75c81cb7.js",
     "static/js/787.8b67b105.chunk.js": "/project-solvro/static/js/787.8b67b105.chunk.js",
     "index.html": "/project-solvro/index.html",
     "main.d894191c.css.map": "/project-solvro/static/css/main.d894191c.css.map",
-    "main.16f5e19a.js.map": "/project-solvro/static/js/main.16f5e19a.js.map",
+    "main.75c81cb7.js.map": "/project-solvro/static/js/main.75c81cb7.js.map",
     "787.8b67b105.chunk.js.map": "/project-solvro/static/js/787.8b67b105.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d894191c.css",
-    "static/js/main.16f5e19a.js"
+    "static/js/main.75c81cb7.js"
   ]
 }
