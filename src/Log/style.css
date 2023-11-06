@@ -12,13 +12,11 @@
 }
 
 .buttonLog__button {
-  background-color: rgb(204, 231, 250);
+  background-color: hwb(188 1% 43%);
+  color: white;
   margin: 15px;
   padding: 15px;
   cursor: pointer;
   border: none;
   border-radius: 5%;
-  -webkit-box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
-  -moz-box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
-  box-shadow: 9px 16px 42px 0px rgba(122, 167, 181, 1);
 }
