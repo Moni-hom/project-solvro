@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+## Pomocna lista zadań
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Możesz dodawać i usuwać swoje zadania. Te które są zrobione możesz zaznaczyć jako gotowe oraz je ukryć, żeby widzieć tylko te niezronione. Możesz również przydzielić zadanie danej osobie.
+
+# Demo
+
+https://moni-hom.github.io/project-solvro/
+
+#
+
+![Alt text](image.png)
 
 ## Available Scripts
 
